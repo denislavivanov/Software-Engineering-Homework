@@ -31,4 +31,7 @@ class TestStringMethods(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    print('Min: ', min_temp())
+    print('Avg: ', avg_temp())
+    print('Max: ', max_temp())
     unittest.main()
